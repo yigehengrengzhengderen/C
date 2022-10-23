@@ -13,6 +13,7 @@ int CountIndex(MyLinkedList* obj)
         currrent = currrent->next;
         count++;
     }
+    
     return count;
 }
 
