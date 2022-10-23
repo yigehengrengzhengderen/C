@@ -7,6 +7,7 @@
 //	char name[5];
 //	int age;
 //	char sex[5];
+//
 //};
 //
 //int main()
@@ -48,7 +49,7 @@
 //	return 0;
 //}
 
-//½á¹¹ÌåÁ·Ï°£ºÅ£Å£µÄÊ±ÖÓ
+//ç»“æ„ä½“ç»ƒä¹ ï¼šç‰›ç‰›çš„æ—¶é’Ÿ
 //struct time
 //{
 //    int hour;
@@ -129,7 +130,7 @@
 //	return 0;
 //}
 
-//¼ÆËãÆ÷
+//è®¡ç®—å™¨
 //int add(int x, int y)
 //{
 //	return x + y;
@@ -158,21 +159,21 @@
 //	int input = 0;
 //	do
 //	{
-//		printf("ÇëÑ¡Ôñ£º>");
+//		printf("è¯·é€‰æ‹©ï¼š>");
 //		scanf("%d", &input);
 //		if (input > 0 && input <= 4)
 //		{
 //			int x = 0;
 //			int y = 0;
-//			printf("ÇëÊäÈëÁ½¸ö²Ù×÷Êı£º>");
+//			printf("è¯·è¾“å…¥ä¸¤ä¸ªæ“ä½œæ•°ï¼š>");
 //			scanf("%d %d", &x, &y);
-//			printf("½á¹ûÎª£º%d\n", arr[input](x, y));
+//			printf("ç»“æœä¸ºï¼š%d\n", arr[input](x, y));
 //		}
 //		else
 //		{
-//			printf("ÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈë£¡\n");
+//			printf("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥ï¼\n");
 //		}
 //	} while (input);
-//	printf("ÍË³ö\n");
+//	printf("é€€å‡º\n");
 //	return 0;
 //}
