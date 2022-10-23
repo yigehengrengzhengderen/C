@@ -33,7 +33,6 @@ int myLinkedListGet(MyLinkedList* obj, int index) {
         pnode = pnode->next;
         count++;
     }
-
     return -1;
 }
 
